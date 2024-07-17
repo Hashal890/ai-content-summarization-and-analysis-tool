@@ -1,7 +1,21 @@
+"use client";
+
+import { ChakraProvider, Heading } from "@chakra-ui/react";
+import Upload from "@/components/Upload";
+
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      AI-Powered Content Summarization & Analysis Tool
+    <main>
+      <ChakraProvider>
+        <Heading
+          textAlign={"center"}
+          m={8}
+          fontSize={["16px", "18px", "20px", "22px"]}
+        >
+          AI-Powered Content Summarization & Analysis Tool
+        </Heading>
+        <Upload />
+      </ChakraProvider>
     </main>
   );
 }
