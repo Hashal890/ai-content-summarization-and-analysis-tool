@@ -14,7 +14,7 @@ const Upload = () => {
   const [file, setFile] = useState(null);
   const [text, setText] = useState("");
   const [result, setResult] = useState(null);
-  const [isLoading, setIsLoading] = useState(false); // State for loading indicator
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleFileChange = (event) => {
     setFile(event.target.files[0]);
