@@ -108,8 +108,6 @@ bun dev
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 - [Cors](https://www.npmjs.com/package/cors)
 - [Chakra-UI](https://v2.chakra-ui.com/getting-started)
-- [Chart.js](https://www.chartjs.org/docs/latest/)
-- [React Chart.js 2](https://www.npmjs.com/package/react-chartjs-2)
 - [React Icons](https://react-icons.github.io/react-icons/)
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
