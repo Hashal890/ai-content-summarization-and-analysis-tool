@@ -9,7 +9,7 @@ import {
   CircularProgress,
 } from "@chakra-ui/react";
 import DisplayResults from "./DisplayResults";
-// import axios from "axios";
+import axios from "axios";
 
 const Upload = () => {
   const [file, setFile] = useState(null);
@@ -31,24 +31,11 @@ const Upload = () => {
     if (file) formData.append("file", file);
     else formData.append("text", text);
     try {
-      const response = await fetch(
+      const res = await axios.post(
         "https://ai-content-summarization-and-analysis.onrender.com/upload",
-        {
-          method: "POST",
-          body: formData,
-        }
+        formData
       );
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const data = await response.json();
-      setResult(data);
-      // axios
-      //   .post(
-      //     "https://ai-content-summarization-and-analysis.onrender.com/upload",
-      //     formData
-      //   )
-      //   .then((res) => console.log(res));
+      setResult(res.data);
     } catch (error) {
       console.error("Error uploading data:", error);
     } finally {

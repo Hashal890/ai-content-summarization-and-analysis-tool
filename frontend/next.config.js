@@ -3,7 +3,7 @@ module.exports = {
     return [
       {
         source: "/:path*",
-        destination: "http://localhost:8080/:path*",
+        destination: "https://ai-content-summarization-and-analysis.onrender.com/:path*",
       },
     ];
   },
