@@ -9,22 +9,27 @@ This project demonstrates an AI-powered content summarization and analysis tool 
   - Display Summaries: Shows concise summaries of uploaded text.
   - Sentiment Analysis: Displays sentiment scores and magnitudes.
   - Entity Recognition: Highlights key entities (names, organizations, locations).
-  - Visualization: Optionally presents insights using charts and graphs.
   - Responsive Design: Ensures usability on various devices.
   - Error Handling: Manages and reports errors to the user.
 - Back-End
   - API Endpoints: Handles text upload and analysis requests.
-  - AI Integration: Utilizes Google Cloud Natural Language API for text analysis.
+  - AI Integration: Utilizes summarizer, summary, tokenizer, sentiment packages for text and uploaded document analysis.
   - Text Processing: Summarizes text and extracts insights.
-  - Optional Authentication: Adds user authentication for secure access.
-  - History Storage: Optionally saves user upload history and analysis results.
-  - Downloadable Reports: Allows users to download analysis reports.
-  - Modular Code: Enhances readability and maintainability.
 
 ## Deployment:
 
 - [Frontend](https://ai-content-summarization-and-analysis-tool-frontend.vercel.app/)
 - [Backend](https://ai-content-summarization-and-analysis.onrender.com)
+
+## Project Demonstration
+
+**Image Preview:**
+
+![home](./project-demonstration/image-preview.gif)
+
+**Video Overview:**
+
+[View Video](https://drive.google.com/file/d/1f5vwMLh_y5y4NZRKYhyx3nZqFqzGIzH8/view?usp=sharing)
 
 ## Getting Started
 
@@ -109,13 +114,3 @@ bun dev
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [Vercel](https://vercel.com/)
-
-## Project Demonstration
-
-**Image Preview:**
-
-![home](./frontend/src/assets/)
-
-**Video Overview:**
-
-[View Video]()

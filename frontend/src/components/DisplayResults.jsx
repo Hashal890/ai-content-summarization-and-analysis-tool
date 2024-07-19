@@ -11,7 +11,7 @@ const DisplayResults = ({ result }) => {
         <Box mt={4} p={4} maxW={"100%"} mx={"auto"}>
           <WrapDisplayResultBox>
             <ResultsHeading title={"Summary"} />
-            <Text mt={2} fontSize={"14px"}>
+            <Text mt={2} fontSize={"14px"} maxH={"300px"} overflow={"scroll"}>
               {result.summary}
             </Text>
           </WrapDisplayResultBox>
