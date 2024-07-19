@@ -34,23 +34,29 @@ const DisplayResults = ({ result }) => {
           <WrapDisplayResultBox>
             <ResultsHeading title={" Sentiment Analysis:"} />
             <Text mt={2} fontSize={"14px"}>
-              <span style={{ fontWeight: "bold" }}>Score:</span>{" "}
+              <span style={{ fontWeight: "bold", color: "teal" }}>Score:</span>{" "}
               {result.sentiment.score ? result.sentiment.score : "NA"}
             </Text>
             <Text fontSize={"14px"}>
-              <span style={{ fontWeight: "bold" }}>Comparative: </span>
+              <span style={{ fontWeight: "bold", color: "teal" }}>
+                Comparative:{" "}
+              </span>
               {result.sentiment.comparative
                 ? result.sentiment.comparative
                 : "NA"}
             </Text>
             <Text fontSize={"14px"}>
-              <span style={{ fontWeight: "bold" }}>Positive: </span>
+              <span style={{ fontWeight: "bold", color: "teal" }}>
+                Positive:{" "}
+              </span>
               {result.sentiment.positive.join(", ")
                 ? result.sentiment.positive.join(", ")
                 : "NA"}
             </Text>
             <Text fontSize={"14px"}>
-              <span style={{ fontWeight: "bold" }}>Negative: </span>
+              <span style={{ fontWeight: "bold", color: "teal" }}>
+                Negative:{" "}
+              </span>
               {result.sentiment.negative.join(", ")
                 ? result.sentiment.negative.join(", ")
                 : "NA"}

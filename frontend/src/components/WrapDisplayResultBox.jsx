@@ -10,6 +10,7 @@ const WrapDisplayResultBox = ({ children }) => {
       borderRadius={"20px"}
       mt={4}
       w={"100%"}
+      textAlign={"center"}
     >
       {children}
     </Box>
