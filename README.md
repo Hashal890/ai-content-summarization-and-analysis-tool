@@ -5,7 +5,26 @@ This project demonstrates an AI-powered content summarization and analysis tool 
 ## Features:
 
 - Front-End
+  - Upload Form: Supports text uploads in formats like plain text, HTML, and doc files.
+  - Display Summaries: Shows concise summaries of uploaded text.
+  - Sentiment Analysis: Displays sentiment scores and magnitudes.
+  - Entity Recognition: Highlights key entities (names, organizations, locations).
+  - Visualization: Optionally presents insights using charts and graphs.
+  - Responsive Design: Ensures usability on various devices.
+  - Error Handling: Manages and reports errors to the user.
 - Back-End
+  - API Endpoints: Handles text upload and analysis requests.
+  - AI Integration: Utilizes Google Cloud Natural Language API for text analysis.
+  - Text Processing: Summarizes text and extracts insights.
+  - Optional Authentication: Adds user authentication for secure access.
+  - History Storage: Optionally saves user upload history and analysis results.
+  - Downloadable Reports: Allows users to download analysis reports.
+  - Modular Code: Enhances readability and maintainability.
+
+## Deployment:
+
+- [Frontend](https://ai-content-summarization-and-analysis-tool-frontend.vercel.app/)
+- [Backend](https://ai-content-summarization-and-analysis.onrender.com)
 
 ## Getting Started
 
@@ -75,7 +94,10 @@ bun dev
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Next.js](https://nextjs.org/docs)
 - [Express.js](https://expressjs.com/en/starter/installing.html)
-- [Google Cloud Language](https://www.npmjs.com/package/@google-cloud/language)
+- [Multer](https://www.npmjs.com/package/multer)
+- [Natural](https://www.npmjs.com/package/natural)
+- [Sentiment](https://www.npmjs.com/package/sentiment)
+- [Node Summarizer](https://www.npmjs.com/package/node-summarizer)
 - [Axios](https://www.npmjs.com/package/axios)
 - [Body Parser](https://www.npmjs.com/package/body-parser)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
